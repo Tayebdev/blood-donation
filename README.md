@@ -1,16 +1,31 @@
-# blood
+# 🩸 Blood Donation App
 
-A new Flutter project.
+A cross-platform mobile application built with **Flutter** and **Firebase** to connect blood donors with recipients. This app enables users to register as donors, request blood, search for available donors by location and blood type, and get notified when a match is found.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User Authentication (Email, Google, Facebook)
+- 🧬 Donor Registration with Blood Group & Location
+- 📍 Search Donors by Blood Group & Location
+- 🚨 Blood Donation Requests with Real-time Notifications
+- 💬 Chat or Contact Donors
+- 📈 Donation History Tracking
+- 🗺️ Google Maps Integration (Optional)
+- 👨‍⚕️ Admin Panel (Optional for managing users and stats)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+| Technology             | Purpose                          |
+|------------------------|----------------------------------|
+| Flutter                | Cross-platform UI framework      |
+| Firebase Auth          | User authentication              |
+| Cloud Firestore        | Real-time NoSQL database         |
+| Firebase Cloud Messaging (FCM) | Push notifications         |
+| Firebase Storage       | Profile image/file storage       |
+| Google Maps API        | Donor location display (optional)|
+
+---
